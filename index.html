@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>REALTORS</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Nothing+You+Could+Do&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <!-- font-awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container" id="navbarSupportedContent">
+            <a class="navbar-brand" href="#">
+                <img src="/images/logo.png" alt="logo" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home-for-sale">Properties</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#agents-section">Agents</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- end navbar -->
+    <div class="container-fluid herosection" id="herosection">
+        <div class="container mt-3 mb-3">
+            <div class="row hero-content align-items-center">
+                <!-- Left side: Text -->
+                <div class=" col-md-6 mt-5 ">
+                    <h2 class="intro-heading mb-4">The better way <br> to buy real estate.</h2>
+                    <p class="highlignt-text mb-4">It is a long established fact that a reader will be distracted by the
+                        readable content of a page when looking at its versions have evolved over layout.</p>
+                    <div class="input-group mb-5">
+                        <div class="input-group custom-input-group">
+                            <input type="text" class="form-control" placeholder="City, Address">
+                            <button class="btn" style="width: 130px;">Search</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right side: Image -->
+                <div class="hero-img col-md-6 ms-6">
+                    <img src="/images/home.png" alt="Real Estate" class="img-fluid rounded-bottom-left">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end herosection -->
+    <div class="container" id="our-partners">
+        <div class="our-partners">
+            <h3 class="partners-heading">— Our Partners </h3>
+            <p class="partners-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus
+                perspiciatis quos sapiente? Culpa, aut. Iste esse velit dignissimos molestias!</p>
+        </div>
+    </div>
+
+    <div class="container partners">
+        <div class="row justify-content-center partners-child">
+            <div class="col-md-2 col-lg-2 col-4 mb-3">
+                <img src="/images/partners1.png" alt="Image 1" class="img-fluid">
+            </div>
+            <div class="col-md-2 col-lg-2 col-4 mb-3">
+                <img src="/images/partners2.png" alt="Image 2" class="img-fluid">
+            </div>
+            <div class="col-md-2 col-lg-2 col-4 mb-3">
+                <img src="/images/partners3.png" alt="Image 3" class="img-fluid">
+            </div>
+            <div class="col-md-2 col-lg-2 col-4 mb-3">
+                <img src="/images/partners4.png" alt="Image 4" class="img-fluid">
+            </div>
+            <div class="col-md-2 col-lg-2 col-4 mb-3">
+                <img src="/images/partners5.png" alt="Image 5" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- end partners  -->
+
+    <div class="container" id="home-for-sale">
+        <div class="home-for-sale">
+            <h3 class="sale-heading">— Home For Sale </h3>
+            <p class="sale-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus
+                perspiciatis quos sapiente? Culpa, aut. Iste esse velit dignissimos molestias!</p>
+        </div>
+    </div>
+    <!-- end home-for-sale -->
+
+    <div class="container">
+        <div class="row justify-content-center card-row">
+            <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/01.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body p-4">
+                        <h5 class="card-title">Financial Office, Romania</h5>
+                        <p class="card-text">1500 sqft | 03 beds | 05 baths</p>
+                        <div class="price-wrap">
+                            <span class="new-price">$15,000</span>
+                            <del class="old-price">$14,500</del>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-danger inquiry-btn">Inquiry Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/02.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tomin Villa, Denmark</h5>
+                        <p class="card-text">1500 sqft | 03 beds | 05 baths</p>
+                        <div class="price-wrap">
+                            <span class="new-price">$15,000</span>
+                            <del class="old-price">$14,500</del>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-danger inquiry-btn">Inquiry Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/03.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cruzz Villa, Spain</h5>
+                        <p class="card-text">1500 sqft | 03 beds | 05 baths</p>
+                        <div class="price-wrap">
+                            <span class="new-price">$15,000</span>
+                            <del class="old-price">$14,500</del>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-danger  inquiry-btn">Inquiry Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/04.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Milton Villa, NY</h5>
+                        <p class="card-text">1500 sqft | 03 beds | 05 baths</p>
+                        <div class="price-wrap">
+                            <span class="new-price">$15,000</span>
+                            <del class="old-price">$14,500</del>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-danger inquiry-btn">Inquiry Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end card -->
+    <div class="container-fluid agents-section my-1" id="agents-section">
+        <h2 class=" ms-5 " style="color: white; font-size: 38px; text-align: start;">— Our Perfect Agents</h2>
+        <div class="row justify-content-center mx-auto agents-profiles" style="max-width: 1200px;">
+            <!-- Agent 1 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4 d-flex ">
+                <div class="agent-card">
+                    <img src="/images/Profile1.jpg" class="agent-img" alt="Joseph Doe">
+                    <p class="agent-name">Joseph Doe</p>
+                    <p class="agent-properties">18 PROPERTIES</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f" style="color: #0248c0;"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter" style="color: #0248c0;"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #0248c0;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Agent 2 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+                <div class="agent-card">
+                    <img src="/images/Profile4.jpg" class="agent-img" alt="Maria Wade">
+                    <p class="agent-name">Maria Wade</p>
+                    <p class="agent-properties">12 PROPERTIES</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f" style="color: #0248c0;"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter" style="color: #0248c0;"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #0248c0;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Agent 3 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+                <div class="agent-card">
+                    <img src="/images/Profile3.jpg" class="agent-img" alt="David Mach">
+                    <p class="agent-name">David Mach</p>
+                    <p class="agent-properties">7 PROPERTIES</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f" style="color: #0248c0;"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter" style="color: #0248c0;"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #0248c0;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Agent 4 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+                <div class="agent-card">
+                    <img src="/images/Profile6.jpg" class="agent-img" alt="Jeniffer Doe">
+                    <p class="agent-name">Jeniffer Doe</p>
+                    <p class="agent-properties">20 PROPERTIES</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f" style="color: #0248c0;"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter" style="color: #0248c0;"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #0248c0;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end agents-section -->
+    <div class="container text-center my-5">
+        <h3 class="fw-bold">— Why Choose Us?</h3>
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card choose-card">
+                    <div class="icon-box">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h5 class="mt-3 fw-bold">Search Property from Anywhere</h5>
+                    <p>Lorem ipsum dolor sit amet, adipiscing elit sed orci dictum sagittis libero vitae auctor elit.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card choose-card">
+                    <div class="icon-box">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h5 class="mt-3 fw-bold">Professional & Friendly Agents</h5>
+                    <p>Lorem ipsum dolor sit amet, adipiscing elit sed orci dictum sagittis libero vitae auctor elit.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 mb-4">
+                <div class="card choose-card">
+                    <div class="icon-box">
+                        <i class="fas fa-hand-pointer"></i>
+                    </div>
+                    <h5 class="mt-3 fw-bold">Buy and Sell Awesome Property</h5>
+                    <p>Lorem ipsum dolor sit amet, adipiscing elit sed orci dictum sagittis libero vitae auctor elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end choose-you -->
+
+    <div class="container-fluid request-consultant my-5">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="d-flex justify-content-between w-100">
+                    <h4 class="text-white">Request a Free Consultation!!</h4>
+                    <div class=" reserve-btn">Reserve A Slot</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end request-consultant -->
+
+    <div class="container py-5" id="reviews">
+        <h2 class="text-center mb-4">— <strong>Our Client Reviews</strong></h2>
+        <div class="row justify-content-center my-1">
+            <div class="col-md-4">
+                <div class="review-card">
+                    <img src="/images/Profile2.jpg" alt="User">
+                    <p><em>Pellentesque risus metus, condimentum at cursus sodales, mollis quis purus. Pellentesque
+                            vehicula felis a mauris vulputate tincidunt.</em></p>
+                    <h6>Visvan Monee - Web Design</h6>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="review-card">
+                    <img src="/images/Profile5.jpg" alt="User">
+                    <p><em>Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed volutpat eleifend interdum.
+                            Interdum et malesuada fames ac ante.</em></p>
+                    <h6>Jabin Saje - UX Designer</h6>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="review-card">
+                    <img src="/images/Profile2.jpg" alt="User">
+                    <p><em>Aliquam vestibulum urna quam, a efficitur metus pulvinar nec. Cras efficitur sapien eu ligula
+                            sollicitudin, a interdum quam tristique.</em></p>
+                    <h6>Maciea Kalli - Front End</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Client Review -->
+
+    <div class="container contact-section" id="contact-section">
+        <h2 class="mb-3">Any questions? <span class="text-dark">Reach us</span></h2>
+        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h5>CALL US</h5>
+                    <p>(080) 123 456 7890</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="contact-card">
+                    <div class="contact-icon">🔗</div>
+                    <h5>WEBSITE</h5>
+                    <p>www.domain.com</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt" style="color: #f56e00;"></i> </div>
+                    <h5>ADDRESS</h5>
+                    <p>24, Wallstreet, NY 20001</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-envelope" style="color: #ff8800;"></i></div>
+                    <h5>EMAIL</h5>
+                    <p>info@domain.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+    <footer>
+        <div class="footer">
+            <div class="container" id="contact">
+                <div class="row">
+                    <!-- About Us -->
+                    <div class="col-md-3">
+                        <h5>About Us</h5>
+                        <p>Donec quis tincidunt felis. Sed aliquet ac nulla a condimentum. Curabitur massa sapien.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Other Links -->
+                    <div class="col-md-3">
+                        <h5>Other Links</h5>
+                        <p><a href="#">Register</a></p>
+                        <p><a href="#">Forum</a></p>
+                        <p><a href="#">Affiliate</a></p>
+                        <p><a href="#">FAQ</a></p>
+                    </div>
+
+                    <!-- Related Links -->
+                    <div class="col-md-3">
+                        <h5>Related Links</h5>
+                        <p><a href="#">About Us</a></p>
+                        <p><a href="#">Why Buy With Us?</a></p>
+                        <p><a href="#">Our Agent</a></p>
+                        <p><a href="#">Contact Us</a></p>
+                    </div>
+
+                    <!-- Resources -->
+                    <div class="col-md-3">
+                        <h5>Resources</h5>
+                        <p><a href="#">Terms</a></p>
+                        <p><a href="#">Licenses</a></p>
+                        <p><a href="#">Become an Affiliate</a></p>
+                        <p><a href="#">Help Center</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="footer-bottom">
+            © 2019. ESTICA. ALL RIGHTS RESERVED.
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
