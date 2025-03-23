@@ -51,7 +51,8 @@ intro-heading{
 }
 
 .herosection{
-    background: url("/assets/images/background-img.jpg");
+    /* background: url("/assets/images/background-img.jpg"); */
+    background: url("https://om-bhandarkar.github.io/REALTORS/assets/images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -166,7 +167,7 @@ intro-heading{
 }
 .request-consultant {
 
-    background-image: url("/assets/images/2\ \(2\).jpg");
+    background-image: url("https://om-bhandarkar.github.io/REALTORS/assets/images/2\ \(2\).jpg");
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
